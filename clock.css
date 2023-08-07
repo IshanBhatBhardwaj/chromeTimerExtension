@@ -1,0 +1,42 @@
+@font-face {
+    font-family: myFont;
+    src: url(./digital-7\ \(mono\).ttf)
+}
+
+
+body {
+    font-family: myFont;
+    color:red;
+    width: 400px;
+    background-color: black;
+    
+}
+
+h1 {
+    text-align: center;
+}
+
+.timer{
+    text-align: center;
+    padding:20px;
+}
+
+.time{
+    justify-content: center;
+    font-size: xx-large;
+} 
+
+.edit{
+    position: fixed;
+    right: 0px; 
+    bottom: 0px;
+    border: 1px solid grey;
+    background-color: black;
+    color: red;
+    font-family: myFont;
+}
+
+.edit:hover{
+    border: 1px solid aliceblue;
+}
+

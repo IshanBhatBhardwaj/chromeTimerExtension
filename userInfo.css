@@ -1,0 +1,77 @@
+@font-face {
+    font-family: myFont;
+    src: url(./digital-7\ \(mono\).ttf)
+}
+
+body {
+    background-color: black;
+    color: red;
+    width: 400px;
+    font-family: myFont;
+}
+
+#error-title{
+    color:orange;
+    margin-top: 0px;
+    font-size: 10px;
+    display: none;
+}
+
+#error-time{
+    color:orange;
+    margin-top: 0px;
+    font-size: 10px;
+    display: none;
+}
+
+#error-optional{
+    color:orange;
+    margin-top: 0px;
+    font-size: 10px;
+    display: none;
+}
+
+#MainTitle {
+    text-align: center;
+}
+
+#button { 
+    margin:5px;
+    background-color: black;
+    border: 1px solid grey;
+    color: red;
+    font-family: myFont;
+}
+
+#button:hover{
+    border: 1.25px solid aliceblue;
+}
+
+#title {
+    margin: 3px;
+    font-weight: bold;
+}
+
+#time {
+    margin: 3px;
+    font-weight: bold;
+}
+
+
+input {
+    padding: 5px;
+    margin-bottom:12px;
+    width: 100%;
+    outline: 0;
+    color: red;
+    background-color: black;
+    border: 1px solid black;
+    border-bottom: 1px solid grey;
+    transition: border-bottom, .2s;
+
+}
+
+input:focus {
+    border: 1px solid black;
+    border-bottom: 1px solid aliceblue;
+}
